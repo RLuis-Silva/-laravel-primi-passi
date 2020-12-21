@@ -1,3 +1,21 @@
+Esercizio di oggi (21 Dic): Intro Laravel
+repo / nome cartella:  laravel-primi-passi
+Descrizione
+- Installazione composer sulla propria macchina seguendo i passaggi come fatti in lezione
+- Verificare che php sia riconosciuto globalmente inserendo nel terminale php -v
+- Installazione di laravel (versione 7) con composer: utilizzando il seguente comando:
+composer create-project --prefer-dist laravel/laravel:^7.0 MyProject  sostituendo MyProject con il nome della cartella che desiderate.
+- Lanciare il server locale di laravel con php artisan serve e verificare che tutto funzioni correttamente.
+Lascio qui sotto i percorsi del file eseguibile php.exe per poter usare PHP nel terminale globalmente
+Mac (da usare in .zshrc o .bash_profile nella directory home):
+export: PATH=/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/php[tua versione]/bin:$PATH
+Windows:
+C:\MAMP\bin\php\[cartella con la versione php che sta utilizzando MAMP]\php.exe
+Benvenuti nel mondo Laravel! Non fatevi spaventare dalla sua struttura, la affronteremo step by step nel resto del nostro percorso.
+
+###########################################################################################
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
